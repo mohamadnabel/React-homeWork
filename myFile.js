@@ -43,15 +43,20 @@ function funCalculate() {
     //   );
     // }
     if (myArray[i].age >= 20) {
-        console.log(myArray[i].name);
-      }else{
-        console.log("no one has a succesed the exam ");
-      }
+      console.log(myArray[i].name);
+    } else {
+      console.log("no one has a succesed the exam ");
+    }
   }
   //   alert("well hello theer");
-  
+
   // console.log(myStudents.Brothers[1]);
   // console.log(myStudents);
   // function funCalculate() {
 }
 // funCalculate();
+let person = prompt("Please enter your name");
+
+if (person != null) {
+  alert("you are welcom " + person +", how you doing ?");
+}
