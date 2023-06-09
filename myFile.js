@@ -42,7 +42,7 @@ function funCalculate() {
     //       "congratultion"
     //   );
     // }
-    if (myArray[i].age >= 27) {
+    if (myArray[i].age >= 20) {
         console.log(myArray[i].name);
       }else{
         console.log("no one has a succesed the exam ");

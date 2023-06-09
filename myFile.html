@@ -1,13 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <button onclick="funCalculate()"> see my Result</button>
+    <link rel="stylesheet" href="bootstrap-5.3.0-dist/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <!-- <button onclick="funCalculate()"></button> -->
+    <center>
+      <button
+        onclick="funCalculate()"
+        class="btn btn-outline-secondary d-inline-flex align-items-center"
+        type="button"
+      >
+        see my Result
+        <svg class="bi ms-1" width="20" height="20">
+          <use xlink:href="#arrow-right-short"></use>
+        </svg>
+      </button>
+    </center>
     <script src="myFile.js"></script>
-</body>
+  </body>
 </html>
